@@ -16,7 +16,7 @@ public class LoginTest {
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
 		
-		//Case 1 - Valid username and password data
+		//Case 1 - Valid Username and Password 
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("student");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Password123");
 		
@@ -45,8 +45,7 @@ public class LoginTest {
 		System.out.println(driver.findElement(By.id("error")).getText());
 		
 		
-		// Case 2 - No data
-		
+		// Case 4 - No data
 				
 		driver.findElement(By.xpath("//button[@id='submit']")).click();
 				
