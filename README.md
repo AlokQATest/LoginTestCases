@@ -7,7 +7,7 @@ Here, I have created all the testcases associated with Login functionality.
 **Invalid Testcases:**
 1. No data input and direct Login
 2. Invalid username and valid password
-3. Valid username ad invaild password
+3. Valid username and invaild password
 
 Note: Testdata is contained in TestData excel file
 
